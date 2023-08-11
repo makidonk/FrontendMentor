@@ -16,8 +16,14 @@
     <link
       rel="stylesheet"
       type="text/css"
-      media="screen and (max-width:700px)"
+      media="screen and (max-width:600px)"
       href="styleMobile.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (min-width:601px)"
+      href="styleDesktop.css"
     />
     <!-- monsterrat font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -37,15 +43,23 @@
 
   <body>
     <div class="content">
-      <img id="image" src="images\image-product-mobile.jpg" />
+      <picture>
+        <source
+          srcset="images\image-product-mobile.jpg"
+          media="(max-width: 600px)"
+        />
+        <source
+          srcset="images\image-product-desktop.jpg"
+          media="(min-width: 601px)"
+        />
+        <img id="image" src="image-product-desktop.jpg" />
+      </picture>
+
       <div class="textContent">
         <div id="perfume">
           <h1>PERFUME</h1>
         </div>
-        <h2>
-          Gabrielle Essence <br />
-          Eau De Parfum
-        </h2>
+        <h2>Gabrielle Essence Eau De Parfum</h2>
         <h3>
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.

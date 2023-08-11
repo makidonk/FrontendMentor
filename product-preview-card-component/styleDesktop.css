@@ -1,0 +1,128 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  align-items: center;
+}
+.content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-area: "image info";
+  justify-self: center;
+
+  flex-wrap: wrap;
+  margin: auto;
+  width: 40vw;
+  min-width: 400px;
+  flex-direction: column;
+  height: auto;
+}
+
+#image {
+  grid-area: "image";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.textContent {
+  grid-area: "info";
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  padding-top: 2vw;
+  padding-left: 2.1vw;
+  padding-right: 2.1vw;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#perfume {
+  position: relative;
+}
+h1 {
+  font-family: "Montserrat";
+  font-size: 0.7vw;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: hsl(228, 12%, 48%);
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2.1vw;
+  line-height: 2.1vw;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: hsl(212, 21%, 14%);
+}
+
+h3 {
+  font-family: "Montserrat", serif;
+  font-weight: 500;
+  font-size: 0.9vw;
+  line-height: 1.3vw;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: hsl(228, 12%, 48%);
+}
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  padding-top: 1.5vw;
+}
+#newPrice {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2vw;
+  line-height: 40px;
+  color: hsl(158, 36%, 37%);
+}
+#oldPrice {
+  font-family: "Montserrat", serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  font-size: 0.9vw;
+  line-height: 40px;
+  margin-left: 1vw;
+}
+
+#addToCartButton {
+  padding-bottom: 20px;
+}
+
+#button {
+  align-self: flex-end;
+  position: relative;
+  margin-top: 18px;
+  background-color: hsl(158, 36%, 37%);
+  width: 100%;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 0.7vw;
+  color: hsl(0, 0%, 100%);
+  height: 3.5vw;
+  border-radius: 6px;
+  box-shadow: none;
+  border: 0px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.2s;
+}
+#button:hover {
+  background-color: hsl(159, 32%, 21%);
+}
+
+#cartIcon {
+  margin-right: 12px;
+  scale: 100%;
+}
