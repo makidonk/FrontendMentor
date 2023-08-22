@@ -1,0 +1,78 @@
+body {
+  font-family: Hanken Grotesk;
+}
+body {
+  margin: 0px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0px;
+}
+.resultDiv {
+  background-image: linear-gradient(
+    hsl(252, 100%, 67%),
+    30%,
+    hsl(241, 81%, 54%)
+  );
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-left: 16vw;
+  padding-right: 16vw;
+}
+h1 {
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.resultCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    40%,
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 33vw;
+  height: 33vw;
+  border-radius: 33vw;
+  min-width: 127px;
+  min-height: 127px;
+}
+h2 {
+  color: hsl(0, 0%, 100%);
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 45px;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: hsla(0, 0%, 100%, 0.3);
+  font-weight: 500;
+  font-size: 15px;
+}
+h4 {
+  font-size: 25px;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 10px;
+}
