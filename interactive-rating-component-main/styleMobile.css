@@ -1,0 +1,98 @@
+* {
+  font-family: Overpass;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: hsla(213, 19%, 18%, 0.9);
+
+  height: auto;
+  width: 87%;
+  border-radius: 7%;
+}
+.ratingState {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.content {
+  padding: 6vw;
+}
+.starIconDiv {
+  width: 43px;
+  height: 43px;
+  border-radius: 25px;
+  background-color: hsla(216, 12%, 54%, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 22px;
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  line-height: 22px;
+  font-weight: 500;
+}
+.rating {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h2 {
+  font-size: 18px;
+}
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 6vw;
+  background-color: hsla(216, 12%, 54%, 0.1);
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+  font-size: 15px;
+}
+/* .ratings:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(0, 0%, 100%, 0.8);
+} */
+
+button {
+  width: 100%;
+  height: 12vw;
+  border-radius: 6vw;
+  border-width: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsla(0, 0%, 100%, 0.8);
+}
+button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.thankYouState {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items: center;
+}
