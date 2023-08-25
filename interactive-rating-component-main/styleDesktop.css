@@ -1,0 +1,126 @@
+* {
+  font-family: Overpass;
+}
+body {
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  background-color: hsla(213, 19%, 18%, 0.9);
+  height: auto;
+  width: 25%;
+  border-radius: 7%;
+}
+.ratingState {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.content {
+  padding: 2vw;
+}
+.starIconDiv {
+  width: 40px;
+  height: 40px;
+  border-radius: 45px;
+  background-color: hsla(216, 12%, 54%, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 22px;
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+p {
+  font-size: 15px;
+  color: hsl(216, 12%, 54%);
+  line-height: 22px;
+  font-weight: 500;
+}
+.rating {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+  height: 3vw;
+  border-radius: 6vw;
+  background-color: hsla(216, 12%, 54%, 0.1);
+  color: hsl(216, 12%, 54%);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  height: 3vw;
+  border-radius: 6vw;
+  border-width: 0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 2px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsla(0, 0%, 100%, 0.8);
+}
+button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsla(0, 0%, 100%, 0.8);
+}
+
+.thankYouState {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+#ratedImg {
+  display: flex;
+  justify-content: center;
+}
+
+.finalSelection {
+  background-color: hsla(216, 12%, 54%, 0.1);
+  width: max-content;
+  border-radius: 40px;
+  margin-top: 30px;
+}
+#finalSelection {
+  color: hsl(25, 97%, 53%);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+  margin: 0px;
+  justify-self: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: hsla(0, 0%, 100%, 0.9);
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+.center {
+  text-align: center;
+  margin-top: 10px;
+}

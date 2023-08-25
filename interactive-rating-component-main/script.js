@@ -7,9 +7,10 @@ const rating4 = document.getElementById("rating4");
 const rating5 = document.getElementById("rating5");
 const ratings = document.querySelector(".ratings");
 const button = document.querySelector("button");
+const selectedRating = document.getElementById("finalSelection");
 
-thankYouState.style.display = "block";
-ratingState.style.display = "none";
+thankYouState.style.display = "none";
+ratingState.style.display = "flex";
 
 const allRatings = [rating1, rating2, rating3, rating4, rating5];
 
@@ -38,7 +39,7 @@ allRatings.forEach((rating) => {
 
   rating.addEventListener("click", () => {
     resetColors();
-
+    selectedRating.innerText = "You selected " + rating.innerHTML + " out of 5";
     rating.classList.add("selected");
     rating.style.backgroundColor = "hsl(217, 12%, 63%)";
     rating.style.color = "hsl(0, 0%, 100%)";
@@ -46,6 +47,6 @@ allRatings.forEach((rating) => {
 });
 
 button.addEventListener("click", () => {
-  thankYouState.style.display = "block";
+  thankYouState.style.display = "flex";
   ratingState.style.display = "none";
 });
