@@ -1,0 +1,136 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-family: Outfit;
+}
+.box {
+  background-color: hsl(216, 50%, 16%);
+  width: 330px;
+  height: auto;
+  border-radius: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+#ethImage {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsla(178, 100%, 50%,0.5);
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlay img {
+  width: 45px;
+  padding: 120px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+
+h1 {
+  font-size: 23px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+p {
+  font-size: 18px;
+  color: hsla(215, 51%, 70%, 0.8);
+  line-height: 27px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.priceDiv {
+  display: flex;
+  justify-content: space-between;
+  height: 25px;
+  align-items: center;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 15px;
+  color: hsl(178, 100%, 50%);
+}
+.daysLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsla(215, 51%, 70%, 0.8);
+}
+#line {
+  height: 1px;
+  width: 100%;
+  background-color: hsla(215, 51%, 70%, 0.2);
+  margin-top: 12px;
+}
+
+.creationDiv {
+  height: 36px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 5px;
+}
+#profileImage {
+  height: 100%;
+  border: 1.4px solid white;
+  border-radius: 20px;
+}
+h4 {
+  color: hsla(215, 51%, 70%, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+}
+#name {
+  color: white;
+  margin-left: 3px;
+}
+#name:hover {
+  color: hsl(178, 100%, 50%);
+}
