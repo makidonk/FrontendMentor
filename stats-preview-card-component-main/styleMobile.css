@@ -1,0 +1,31 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  overflow-y: scroll;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 90%;
+  height: 80%;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+}
+.images {
+}
+img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.overlayColor {
+  background-color: hsl(277, 64%, 61%);
+  position: relative;
+  top: -250px;
+  height: 100px;
+  width: 100%;
+}
