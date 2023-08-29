@@ -1,0 +1,130 @@
+body {
+  font-family: Red Hat Display;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+}
+.box {
+  width: 90vw;
+  max-width: 400px;
+  height: auto;
+  max-height: 95%;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.05);
+}
+#header {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 900;
+  margin-top: 0px;
+  color: hsl(223, 47%, 23%);
+}
+p {
+  font-size: 16px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 0px;
+}
+.middleDiv {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  background-color: hsl(225, 100%, 98%);
+  width: 100%;
+  padding: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  display: flex;
+  flex-direction: row;
+}
+#music {
+  margin-right: 15px;
+  height: 40px;
+  margin-left: 0px;
+}
+.plan {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+h2 {
+  font-size: 15px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+h4 {
+  font-size: 13px;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+  text-decoration: underline;
+  justify-self: end;
+  text-align: center;
+  margin-right: 0px;
+}
+h4:hover {
+  color: hsla(245, 75%, 52%, 0.6);
+  cursor: pointer;
+}
+button {
+  width: 100%;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  border-width: 0px;
+  box-shadow: 0px 20px 20px 0px hsla(245, 75%, 52%, 0.17);
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: hsla(245, 75%, 52%, 0.6);
+  cursor: pointer;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+h5:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
